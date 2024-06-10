@@ -1,0 +1,44 @@
+.button {
+  width: 73px;
+  height: 28px;
+  padding: 4px 8px 4px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 4px;
+  font-size: 16px;
+
+  &--primary {
+    background-color: #004850;
+    color: #ffffff;
+    border: 1px solid #004850;
+  }
+
+  &__icon {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.icon-button {
+  min-width: 28px;
+  width: 28px;
+  min-height: 28px;
+  height: 28px;
+  border: 1px solid #004850;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #004850;
+  box-shadow: 0px 4px 4px 0px #8bb4d21a;
+
+  &--rounded {
+    border-radius: 50%;
+  }
+
+  &__icon {
+    width: 16px;
+    height: 16px;
+  }
+}
